@@ -4,6 +4,7 @@ metadata:
   name: apple-service
   labels:
     app: apple
+  namespace: kpt_test
 spec:
   selector:
     app: apple

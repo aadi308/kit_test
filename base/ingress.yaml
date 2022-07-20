@@ -6,6 +6,7 @@ metadata:
     ingress.kubernetes.io/rewrite-target: /
   labels:
     app: apple
+  namespace: kpt_test
 spec:
   rules:
   - http:

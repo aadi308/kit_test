@@ -4,6 +4,7 @@ metadata:
   name: apple-app
   labels:
     app: apple
+  namespace: kpt_test
 spec:
   containers:
     - name: apple-app
